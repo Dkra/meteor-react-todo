@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { createContainer } from 'meteor/react-meteor-data';
 import Task from './Task.jsx';
 import { Tasks } from '../api/tasks.js';
-
+console.log('Tasks', Tasks);
 // App component - represents the whole app
 class App extends Component {
   getTasks() {
